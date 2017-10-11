@@ -29,7 +29,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        // Create a default account
+        // Create a default account    	
         auth.inMemoryAuthentication()
             .withUser("admin")
             .password("password")
