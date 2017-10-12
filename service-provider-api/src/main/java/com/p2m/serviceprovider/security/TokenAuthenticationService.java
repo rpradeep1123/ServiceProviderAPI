@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 
+
 public class TokenAuthenticationService {
 	 private long EXPIRATIONTIME = 1000 * 60 * 60 * 24 * 10; // 10 days
      private String secret = "ThisIsASecret";
